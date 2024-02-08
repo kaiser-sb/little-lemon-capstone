@@ -1,0 +1,87 @@
+.about {
+    height: 574px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-left {
+    width: 370px;
+    height: 424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-title h1 {
+    font-family: "Markazi Text";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #495E57;
+}
+
+.about-title h2 {
+    font-family: "Markazi Text";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #333333;
+}
+
+.about-details {
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #333333;
+}
+
+.about-right {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    align-self: center;
+}
+
+.about-right img {
+    width: 500px;
+    height: auto;
+}
+
+.image-A, .image-B {
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.image-A img {
+    margin-left: -130px;
+}
+
+.image-B img {
+    margin-left: -180px;
+}
+
+.image-A {
+    bottom: 0;
+    left: 0;
+}
+
+.image-B {
+    top: 0;
+    right: 0;
+    z-index: 1; /* Ensure image-B appears above image-A */
+}

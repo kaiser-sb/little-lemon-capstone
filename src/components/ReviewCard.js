@@ -1,3 +1,5 @@
+import "../styles/ReviewCard.css"
+
 export default function ReviewCard(props) {
     let starArr = []
     for (let i= 0; i< props.rating; i++) {

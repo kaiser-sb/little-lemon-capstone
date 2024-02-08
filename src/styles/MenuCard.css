@@ -1,0 +1,74 @@
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 264.667px;
+    height: 439px;
+}
+
+.menu-card-content {
+    flex-grow: 1;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.menu-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-card-dish-name {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* Card_Title */
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #333333;
+}
+
+.menu-card-dish-price {
+    color: #EE9972;
+
+    /* Highlight_Text_Regular */
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.menu-card-dish-details {
+    color: #495E57;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-card-order {
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #333333;
+}
+
+.menu-card-image {
+    width: 264.667px;
+    height: 185.258px;
+    border-radius: 16px 16px 0px 0px;
+    overflow: hidden;
+}
+
+.menu-card-image > img {
+    width: 264.667px;
+    height: 185.258px;
+}

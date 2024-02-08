@@ -1,3 +1,6 @@
+import "../styles/CommonStyles.css"
+import "../styles/Testimonials.css"
+
 import ReviewCard from "./ReviewCard"
 
 export default function Testimonials() {
@@ -37,18 +40,21 @@ export default function Testimonials() {
     ]
     return (
         <section className="testimonials">
-            <h1>Testimonials</h1>
-            <div className="reviews">
-                {
-                    reviewData.map(
-                        item => <ReviewCard rating= {item.rating}
-                                            image= {item.image}
-                                            name= {item.name}
-                                            userId= {item.userId}
-                                            review= {item.review}
-                                />)
-                }
+            <div className="wrapper container">
+                <h1>Testimonials</h1>
+                <div className="reviews">
+                    {
+                        reviewData.map(
+                            item => <ReviewCard rating= {item.rating}
+                                                image= {item.image}
+                                                name= {item.name}
+                                                userId= {item.userId}
+                                                review= {item.review}
+                                    />)
+                    }
+                </div>
             </div>
+            
         </section>
     )
 }

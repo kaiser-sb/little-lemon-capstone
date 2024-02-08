@@ -1,3 +1,6 @@
+import "../styles/CommonStyles.css"
+import "../styles/Highlights.css"
+
 import MenuCard from "./MenuCard"
 
 export default function Highlights() {
@@ -26,22 +29,25 @@ export default function Highlights() {
     ]
     return (
         <section className="highlights">
-            <div className="highlights-header">
-                <h1>Specials</h1>
-                <button>Online Menu</button>
+            <div className="wrapper">
+                <div className="highlights-header">
+                    <h1>Specials</h1>
+                    <button>Online Menu</button>
+                </div>
+                <div className="highlights-menu">
+                    {
+                        menuData.map(item => 
+                        <MenuCard 
+                            id={item.id} 
+                            url={item.url} 
+                            name={item.name} 
+                            price={item.price} 
+                            details={item.details} 
+                        />)
+                    }
+                </div>
             </div>
-            <div className="highlights-menu">
-                {
-                    menuData.map(item => 
-                    <MenuCard 
-                        id={item.id} 
-                        url={item.url} 
-                        name={item.name} 
-                        price={item.price} 
-                        details={item.details} 
-                    />)
-                }
-            </div>
+
         </section>
     )
 }

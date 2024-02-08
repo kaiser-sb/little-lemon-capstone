@@ -1,0 +1,24 @@
+.highlights {
+    margin-bottom: 76px;
+}
+
+.highlights-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.highlights-header > h1 {
+    /* Title */
+    font-family: "Markazi Text";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #333333;
+}
+
+.highlights-menu {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,37 @@
+.navbar {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: #EDEFEE;
+    color: #333333;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > img {
+    width: 159px;
+    height: 43px;
+}
+
+.navbar-content > ul {
+    display: flex;
+    width: 558px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.navbar-content li:hover {
+    border-bottom: 2px solid #333333;
+}
+
+.active {
+    border-bottom: 2px solid #333333;
+}

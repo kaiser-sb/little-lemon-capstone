@@ -1,0 +1,27 @@
+.testimonials {
+    background-color: #FDF4EE;
+    height: 590px;
+    padding-top: 80px;
+}
+
+.container {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container > h1 {
+    font-family: "Markazi Text";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #333333;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+}

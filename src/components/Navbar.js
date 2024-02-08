@@ -1,16 +1,26 @@
+import { Link } from "react-router-dom"
+
+import "../styles/CommonStyles.css"
+import "../styles/Nav.css"
+
+const linkStyle = { textDecoration: 'none', color: 'inherit' }
+
 export default function Navbar() {
     
     return (
-        <nav>
-           <img src={require("../assets/images/Logo .png")} alt="Little Lemon Logo" />
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Reservations</li>
-                <li>Order Online</li>
-                <li>Login</li>
-            </ul>
+        <nav className="navbar">
+            <div className="wrapper navbar-content">
+                <img src={require("../assets/images/Logo .png")} alt="Little Lemon Logo" />
+                <ul>
+                    <li><Link to="/" style={linkStyle}>Home</Link></li>
+                    <li><Link to="/about" style={linkStyle}>About</Link></li>
+                    <li><Link to="/menu" style={linkStyle}>Menu</Link></li>
+                    <li><Link to="/reservations" style={linkStyle}>Reservations</Link></li>
+                    <li><Link to="/orderonline" style={linkStyle}>Order Online</Link></li>
+                    <li><Link to="/login" style={linkStyle}>Login</Link></li>
+                </ul>
+            </div>
+
         </nav>
     )
 }
