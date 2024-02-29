@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom"
+
 import "../styles/CommonStyles.css"
 import "../styles/Hero.css"
 
 export default function Hero() {
+    const linkStyle = { textDecoration: 'none', color: 'inherit' }
     return (
         <section className="hero-container">
                 <header className="hero">
@@ -13,7 +16,9 @@ export default function Hero() {
                             <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
                         </div>
                         <div className="header-button">
-                            <button>Reserve a Table</button>
+                            <button>
+                                <Link to="/reservations" style={linkStyle}>Reserve a Table</Link>
+                            </button>
                         </div>
                     </div>
 

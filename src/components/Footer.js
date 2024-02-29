@@ -3,9 +3,11 @@ import { Link } from "react-router-dom"
 import "../styles/CommonStyles.css"
 import "../styles/Footer.css"
 
-const linkStyle = { textDecoration: 'none', color: 'inherit' }
+// const linkStyle = { textDecoration: 'none', color: 'inherit' }
 
 export default function Footer() {
+    const linkStyle = { textDecoration: 'none', color: 'inherit' }
+
     return (
         <footer className="footer">
             <div className="wrapper footer-container">

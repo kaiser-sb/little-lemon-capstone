@@ -3,10 +3,9 @@ import { Link } from "react-router-dom"
 import "../styles/CommonStyles.css"
 import "../styles/Nav.css"
 
-const linkStyle = { textDecoration: 'none', color: 'inherit' }
-
 export default function Navbar() {
-    
+    const linkStyle = { textDecoration: 'none', color: 'inherit' }
+
     return (
         <nav className="navbar">
             <div className="wrapper navbar-content">

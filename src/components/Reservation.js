@@ -1,6 +1,8 @@
 import "../styles/Reservation.css"
 
-export default function Reservation () {
+import BookingForm from "./BookingForm"
+
+export default function Reservation (props) {
     return (
         <section className="reservation">
             <div className="wrapper">
@@ -9,19 +11,10 @@ export default function Reservation () {
                     <p>Please fill out the form to reserve a table</p>
                 </div>
                 <div className="reservation-image">
-                    <img src={require("../assets/images/restaurant.jpg")} alt="Little Lemon Restaurant" width="300px"/>
+                    <img src={require("../assets/images/restaurant.jpg")} alt="Little Lemon Restaurant" width="500px"/>
                 </div>
                 <div className="reservation-form">
-                    <form>
-                        <label htmlFor="name">Full Name <sup>*</sup></label>
-                        <input type="text" placeholder="John Doe" id="name" />
-
-                        <label htmlFor="email">Email ID <sup>*</sup></label>
-                        <input type="email" placeholder="john.doe@example.com" id="email" />
-
-                        <label htmlFor="name">Full Name <sup>*</sup></label>
-                        <input type="text" placeholder="John Doe" id="name" />
-                    </form>
+                    <BookingForm availableTimes={props.availableTimes} dispatch={props.dispatch} submitForm={props.submitForm} />
                 </div>
             </div>
         </section>
