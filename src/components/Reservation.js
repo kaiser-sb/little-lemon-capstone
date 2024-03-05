@@ -5,7 +5,7 @@ import BookingForm from "./BookingForm"
 export default function Reservation (props) {
     return (
         <section className="reservation">
-            <div className="wrapper">
+            <div className="wrapper reservation-container">
                 <div className="reservation-header">
                     <h1>Reserve a Table</h1>
                     <p>Please fill out the form to reserve a table</p>
