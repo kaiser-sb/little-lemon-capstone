@@ -14,6 +14,10 @@
     align-self: center;
 }
 
+.footer-image > img {
+    width: 6rem;
+}
+
 .footer-container li, .footer-container address {
     font-family: Karla;
     font-size: 18px;

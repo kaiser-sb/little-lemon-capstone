@@ -13,9 +13,7 @@ export default function Footer() {
             <div className="wrapper footer-container">
                 <div className="footer-image">
                     <img src={require("../assets/images/Asset 20@4x.png")} 
-                        alt="Little lemon footer logo" 
-                        width="100px"
-                    />
+                        alt="Little lemon footer logo" />
                 </div>
 
                 <div className="footer-links">

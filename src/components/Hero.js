@@ -4,11 +4,11 @@ import "../styles/CommonStyles.css"
 import "../styles/Hero.css"
 
 export default function Hero() {
-    const linkStyle = { textDecoration: 'none', color: 'inherit' }
+    const linkStyle = { textDecoration: 'none', color: 'inherit', fontFamily: 'Karla', fontSize: '1.1rem' }
     return (
         <section className="hero-container">
-                <header className="hero">
-                <div className="wrapper hero-content">
+            <header className="hero wrapper">
+                <div className="hero-content">
                     <div className="hero-left">
                         <div className="header-info">
                             <h1>Little Lemon</h1>
@@ -16,7 +16,7 @@ export default function Hero() {
                             <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
                         </div>
                         <div className="header-button">
-                            <button>
+                            <button id="header-button-link">
                                 <Link to="/reservations" style={linkStyle}>Reserve a Table</Link>
                             </button>
                         </div>
@@ -26,7 +26,6 @@ export default function Hero() {
                         <img src={require("../assets/images/restauranfood.jpg")} alt="Delicious food served in Little Lemon" />
                     </div>
                 </div>
-                
             </header>
         </section>
         

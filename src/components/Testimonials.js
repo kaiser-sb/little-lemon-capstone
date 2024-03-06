@@ -40,7 +40,7 @@ export default function Testimonials() {
     ]
     return (
         <section className="testimonials">
-            <div className="wrapper container">
+            <div className="container wrapper">
                 <h1>Testimonials</h1>
                 <div className="reviews">
                     {

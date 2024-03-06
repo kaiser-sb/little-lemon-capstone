@@ -28,8 +28,8 @@ export default function Highlights() {
         }
     ]
     return (
-        <section className="highlights">
-            <div className="wrapper">
+        <section className="wrapper highlights">
+            <div className="highlights-content">
                 <div className="highlights-header">
                     <h1>Specials</h1>
                     <button>Online Menu</button>
