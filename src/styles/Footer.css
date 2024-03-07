@@ -1,17 +1,47 @@
 .footer {
     background-color: #D9D9D9;
-    padding: 20px;
+    padding: 1.2rem;
     width: 100%;
+    margin-top: 2rem;
     bottom: 0;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    max-width: 900px;
+    /* border: 3px solid red; */
+}
+
+.footer-data {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    /* width: 80%; */
+    /* border: 3px solid black; */
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-image {
     align-self: center;
+    /* border: 3px solid green; */
+    /* width: 20%; */
 }
 
 .footer-image > img {
@@ -20,7 +50,7 @@
 
 .footer-container li, .footer-container address {
     font-family: Karla;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.8;
@@ -44,13 +74,69 @@
     text-align: center;
 }
 
+.footer-social-connect {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
 .copyright {
     position: absolute;
     right: 15px;
     color: #333333;
     font-family: Karla;
-    font-size: 12px;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-contact, .footer-links {
+        display: none;
+    }
+
+    h4 {
+        display: none;
+    }
+
+    .footer-data {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 3px solid red; */
+    }
+
+    .footer-social-connect {
+        width: 100%;
+        /* border: 3px solid blue; */
+    }
+
+    .footer-social-connect > ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* align-self: center; */
+        /* border: 3px solid blue; */
+        gap: 3rem;
+        flex-wrap: wrap;
+        /* flex-basis: 100%; */
+    }
+
+    .footer-links li {
+        font-size: small;
+    }
+
+    .footer-image > img {
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer-social-connect > ul {
+        gap: 1.2rem;
+    }
 }

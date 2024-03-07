@@ -1,13 +1,14 @@
 .testimonials {
     background-color: #FDF4EE;
     /* height: 70%; */
-    padding: 2rem;
+    /* padding: 2rem; */
     /* border: 3px solid black; */
+    padding-bottom: 2rem;
 }
 
 .container {
     height: 100%;
-    width: 70%;
+    width: 100%;
     max-width: 900px;
     display: flex;
     flex-direction: column;
@@ -22,7 +23,7 @@
     line-height: normal;
     color: #333333;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .reviews {
@@ -32,10 +33,4 @@
     padding: 2rem 0;
     overflow: scroll;
     overflow-y: hidden;
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
 }

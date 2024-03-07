@@ -32,7 +32,7 @@
 
 .header-info > h1 {
     font-family: "Markazi Text";
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -63,7 +63,7 @@
 .hero-right {
     width: 40%;
     max-width: 375px;
-    margin-top: 4rem;
+    margin-top: 6rem;
     overflow: hidden;
     border-radius: 20px;
 }

@@ -57,7 +57,7 @@ export default function BookingForm(props) {
     };
 
     return (
-        <form onSubmit={handleSubmit} style={{ display: "grid", maxWidth: "500px", gap: "20px" }}>
+        <form onSubmit={handleSubmit} style={{ display: "grid", width: "100%", gap: "20px" }}>
 
             <label htmlFor="name">Full Name <sup>*</sup></label>
             <input type="text" id="name" ref={nameRef} value={name} placeholder="John Doe" pattern="[a-zA-Z ]+" title="Please enter a valid name"
