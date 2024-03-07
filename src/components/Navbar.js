@@ -34,12 +34,12 @@ export default function Navbar() {
                 {hamburgerOpen && (
                     <div className="overlay" onClick={toggleHamburger}>
                         <ul className="overlay-menu">
-                            <li><Link to="/" style={linkStyle}>Home</Link></li>
-                            <li><Link to="/about" style={linkStyle}>About</Link></li>
-                            <li><Link to="/menu" style={linkStyle}>Menu</Link></li>
-                            <li><Link to="/reservations" style={linkStyle}>Reservations</Link></li>
-                            <li><Link to="/orderonline" style={linkStyle}>Order Online</Link></li>
-                            <li><Link to="/login" style={linkStyle}>Login</Link></li>
+                            <Link to="/" style={linkStyle}><li>Home</li></Link>
+                            <Link to="/about" style={linkStyle}><li>About</li></Link>
+                            <Link to="/menu" style={linkStyle}><li>Menu</li></Link>
+                            <Link to="/reservations" style={linkStyle}><li>Reservations</li></Link>
+                            <Link to="/orderonline" style={linkStyle}><li>Order Online</li></Link>
+                            <Link to="/login" style={linkStyle}><li>Login</li></Link>
                         </ul>
                     </div>
                 )}

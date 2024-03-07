@@ -8,6 +8,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Reservation from './components/Reservation';
 import ConfirmedBooking from './components/ConfirmedBooking';
+import UnderConstruction from './components/UnderConstruction';
 
 import "./App.css";
 // import {fetchAPI, submitAPI} from "./assets/mockAPI"
@@ -69,6 +70,8 @@ function App() {
                 <Route path="/menu" element={<Highlights />} />
                 <Route path="/reservations" element={<Reservation availableTimes={state} dispatch={dispatch} submitForm={submitForm}/>} />
                 <Route path="/confirmed" element={<ConfirmedBooking/> } />
+                <Route path="/orderonline" element={<UnderConstruction /> } />
+                <Route path="/login" element={<UnderConstruction /> } />
             </Routes>
             <Footer />
         </>
