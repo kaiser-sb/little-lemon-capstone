@@ -2,7 +2,7 @@
 .container-construction {
     width: 60%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     text-align: center;
     padding: 2rem;
     background-color: #FDF4EE;
@@ -24,20 +24,6 @@
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
-
-/* .container-construction button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-.container-construction button:hover {
-    background-color: #45a049;
-} */
 
 @media screen and (max-width: 768px) {
     .container-construction {
