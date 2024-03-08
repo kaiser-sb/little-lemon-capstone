@@ -23,7 +23,7 @@ export default function Hero() {
                     </div>
 
                     <div className="hero-right">
-                        <img src={require("../assets/images/restauranfood.jpg")} alt="Delicious food served in Little Lemon" />
+                        <img src={require("../assets/images/restauranfood.jpg")} alt="Delicious food served in Little Lemon" loading="lazy" />
                     </div>
                 </div>
             </header>

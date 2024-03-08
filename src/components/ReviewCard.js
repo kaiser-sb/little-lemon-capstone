@@ -7,6 +7,7 @@ export default function ReviewCard(props) {
             <img src={require("../assets/images/Star.jpg")} 
             alt="Star rating"
             width="15px"
+            loading="lazy"
         />)
     }
     return(
@@ -18,7 +19,8 @@ export default function ReviewCard(props) {
                 <div className="review-card-image">
                     <img src={props.image} 
                          alt="Profile pic"
-                         width="30px" />
+                         width="30px"
+                         loading="lazy" />
                 </div>
                 <div className="review-card-name">
                     <p><b>{props.name}</b></p>

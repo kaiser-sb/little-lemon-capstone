@@ -5,7 +5,7 @@ export default function MenuCard(props) {
     return(
         <section className="menu-card">
             <div className="menu-card-image">
-                <img src={props.url} alt="Dish" />
+                <img src={props.url} alt="Dish" loading="lazy" />
             </div>
             <div className="menu-card-content">
                 <div className="menu-card-header">

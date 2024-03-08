@@ -10,7 +10,7 @@ export default function About() {
                         <h1>Little Lemon</h1>
                         <h2>Chicago</h2>
                     </div>
-                    <img src={require("../assets/images/Mario and Adrian A.jpg")} className="mobile-only" alt="Mario and Adrian"/>
+                    <img src={require("../assets/images/Mario and Adrian A.jpg")} loading="lazy" className="mobile-only" alt="Mario and Adrian"/>
                     <div className="about-details">
                         <p>Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant.</p>
                         <br></br>
