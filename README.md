@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Little Lemon Restaurant Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The aim of the project is to build a fully functional website frontend for the restaurant, Little Lemon, including at least a landing page and a table reservation page, using basic and advanced React principles. It is also important to take note of the responsiveness and performance of the website. This project is the final assignment for <b>Meta Front-end Developer Capstone Project course</b>, provided via Coursera.
 
-## Available Scripts
+To get a feel of how the project looks like - [click here](https://thelittlelemonchicago.netlify.app/). I have also included the links below. [Click here](#connect-with-me) to connect with me for collaboration or exciting job opportunity.
 
-In the project directory, you can run:
+Check out the course here - [Meta Front-end Developer Capstone Project](https://www.coursera.org/learn/meta-front-end-developer-capstone?specialization=meta-front-end-developer). 
 
-### `npm start`
+## Table of contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Overview](#overview)
+  - [The Objective](#the-objective)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Launch Guide](#launch-guide)
+  - [The Cloning](#the-cloning)
+  - [Launch the App](#launch-app)
+- [The Process](#the-process)
+  - [Technologies Used](#technologies-used)
+  - [Libraries Used](#libraries-used)
+  - [Challenges Faced](#challenges-faced)
+- [Further Development](#further-development)
+  - [Enhancement Opportunities](#enhancement)
+  - [Acknowledgment](#useful-resources)
+- [Connect With Me](#connect-with-me)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
 
-### `npm test`
+### The objective
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users should be able to:
 
-### `npm run build`
+- Visit and navigate into different sections the webpage using the navigation bar
+- Reserve a table for a selected date and time
+- Detect any error that may occur during the table reservation process
+- Get a confirmation after a successful reservation
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](./src/assets/images/Screenshot_little_lemon.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+- Repository URL : [GitHub Repo](https://github.com/kaiser-sb/little-lemon-capstone)
+- Live Site URL : [Little Lemon Website](https://thelittlelemonchicago.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Launch Guide
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### The Cloning
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Copy the code snippet below to start working with the repo.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```shell
+$ https://github.com/kaiser-sb/little-lemon-capstone
+$ cd little-lemon-restaurant
+$ npm install
+```
 
-## Learn More
+### Launch the App
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Use the following command to run the app in your localhost.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm start
+```
 
-### Code Splitting
+## The Process
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Technologies Used
 
-### Analyzing the Bundle Size
+- HTML5 (Semantic)
+- CSS (Flexbox and Grid)
+- JavaScript (ES6)
+- React
+- React Hooks and Libraries
+- Responsive Web Designing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Libraries Used
 
-### Making a Progressive Web App
+The follwoing libraies are used for the project -
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```shell
+react-router-dom
 
-### Advanced Configuration
+@fortawesome/react-fontawesome
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+@fortawesome/free-brands-svg-icons
 
-### Deployment
+@fortawesome/free-solid-svg-icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+### Challenges Faced
 
-### `npm run build` fails to minify
+The API link provided by Meta to populate the available time slots in reservation page was somehow broken. This issue had to be fixed by somewhat mocking the API action in the project itself.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Further Development
+
+### Enhancement Opportunities
+
+I am looking forward to enhance the `Menu` section as well as building the `Order Online` & `Login` section. In future, I look forward to develop this into a full-fledged Full Stack Website.
+
+### Acknowledgment
+
+I would like to thank my fellow learners in the Meta course, who posted numerous solutions in the discussion forums to overcome various kinds of difficulties encountered throughout the project - especially in case of the broken API link.
+
+## Connect With Me
+
+If you want to discuss opportunities of collaboration, jobs or freelancing - feel free to reach out to me in any of the following platform, and I'll be happy to connect!
+
+- My Website - [Portfolio Website](https://sunetrabhowmick3.wordpress.com/)
+- My LinkedIn Profile - [kaiser-sb](https://www.linkedin.com/in/kaiser-sb/)
+- My Xing Profile - [Sunetra Bhowmick](https://www.xing.com/profile/Sunetra_Bhowmick/web_profiles)
+- My GitHub - [@kaiser-sb](https://github.com/kaiser-sb)
