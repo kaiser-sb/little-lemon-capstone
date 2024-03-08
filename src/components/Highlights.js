@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 import "../styles/CommonStyles.css"
 import "../styles/Highlights.css"
 
@@ -32,7 +34,7 @@ export default function Highlights() {
             <div className="highlights-content">
                 <div className="highlights-header">
                     <h1>Specials</h1>
-                    <button>Online Menu</button>
+                    <Link to= "/menu"><button>Online Menu</button></Link>
                 </div>
                 <div className="highlights-menu">
                     {
