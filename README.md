@@ -54,7 +54,7 @@ Copy the code snippet below to start working with the repo.
 
 ```shell
 $ https://github.com/kaiser-sb/little-lemon-capstone
-$ cd little-lemon-restaurant
+$ cd little-lemon-capstone
 $ npm install
 ```
 
