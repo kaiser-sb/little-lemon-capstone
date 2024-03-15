@@ -9,7 +9,7 @@ export default function Highlights() {
     const menuData = [
         {
             id: 1,
-            url: require("../assets/images/greek salad.jpg"),
+            url: require("../assets/images/Salad.jpg"),
             name: "Greek salad",
             price: "$12.99",
             details : "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. ",

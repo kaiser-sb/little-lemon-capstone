@@ -1,4 +1,6 @@
 import { useState, useRef, useEffect } from "react";
+// import { useHistory } from "react-router-dom";
+
 import "../styles/BookingForm.css";
 
 export default function BookingForm(props) {
@@ -11,6 +13,17 @@ export default function BookingForm(props) {
     const [occasion, setOccasion] = useState("");
 
     const [formValid, setFormValid] = useState(false);
+
+    // const history = useHistory();
+
+    const formData = {
+        name: name,
+        email: email,
+        date: date,
+        times: times,
+        guests: guests,
+        occasion: occasion,
+    }
 
     // useRef Hooks
     const nameRef = useRef(null);
@@ -44,7 +57,7 @@ export default function BookingForm(props) {
             occasionRef.current.value
         );
     }, [name, email, date, times, guests, occasion]);
-    
+
 
     const handleDateChange = (e) => {
         setDate(e.target.value);
@@ -53,7 +66,7 @@ export default function BookingForm(props) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        props.submitForm(e);
+        props.submitForm(formData);
     };
 
     return (
